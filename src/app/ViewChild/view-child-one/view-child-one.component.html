@@ -1,0 +1,20 @@
+<h3 #title>View child here...</h3>
+
+<div div #divContent>
+  Angular Viewchild to change color of div element to blue
+</div>
+<button (click)="changeStyle()">Change Element styles</button>
+
+<ul>
+  <li>fraise</li>
+  <li>pomme</li>
+  <li>ananas</li>
+  <li>cerise</li>
+</ul>
+
+<div>
+  <h2>Parent component</h2>
+  <button (click)="toggleChild()">Toggle child component</button>
+</div>
+
+<app-child></app-child>
