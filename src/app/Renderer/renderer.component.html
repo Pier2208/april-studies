@@ -1,0 +1,22 @@
+<ul #addlistCss (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
+  <li>fraise</li>
+  <li>pomme</li>
+  <li>ananas</li>
+  <li>cerise</li>
+</ul>
+
+<br /><br /><br /><br />
+
+<input
+  type="text"
+  #inputRef
+  (mouseenter)="mouseEnter()"
+  (mouseleave)="mouseLeave()"
+/>
+
+<br /><br /><br /><br />
+
+<h2 style="color: green">Renderer 2 set and remove property</h2>
+<hr />
+<input type="text" #disableInput />
+<button (click)="disableInputBox()">Disable input</button>

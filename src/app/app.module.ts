@@ -9,6 +9,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HovererSecureDirective } from './ElementRef/hovever-secure.directive';
 import { ViewChildOneComponent } from './ViewChild/view-child-one/view-child-one.component';
 import { ChildComponent } from './ViewChild/child/child.component';
+import { RendererComponent } from './renderer/renderer.component';
+import { HostListenerComponent } from './host-listener/host-listener.component';
+import { AnimateDirective } from './host-listener/animate.directive';
+import { MaxTwoDecimalDirective } from './host-listener/max-two-decimal.directive';
 
 const routes: Routes = [
   { path: 'element-ref', component: ElementRefComponent},
@@ -23,7 +27,11 @@ const routes: Routes = [
     ElementRefComponent,
     HovererSecureDirective,
     ViewChildOneComponent,
-    ChildComponent
+    ChildComponent,
+    RendererComponent,
+    HostListenerComponent,
+    AnimateDirective,
+    MaxTwoDecimalDirective
   ],
   imports: [
     BrowserModule,
